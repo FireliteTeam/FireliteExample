@@ -8,10 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		45499D96201FD2E300473D86 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 45499D95201FD2E300473D86 /* GoogleService-Info.plist */; };
+		459A6072201FDB5600FD65EE /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459A6070201FDB5600FD65EE /* MainViewController.swift */; };
+		459A6073201FDB5600FD65EE /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 459A6071201FDB5600FD65EE /* MainViewController.xib */; };
 		5BABF1B32BEA116DCEE964BD /* Pods_FireliteExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAA9D8D6C6147FD0C61EEF6D /* Pods_FireliteExampleTests.framework */; };
 		ADA12A26201FCDE200DF85A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA12A25201FCDE200DF85A3 /* AppDelegate.swift */; };
-		ADA12A28201FCDE200DF85A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA12A27201FCDE200DF85A3 /* ViewController.swift */; };
-		ADA12A2B201FCDE200DF85A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADA12A29201FCDE200DF85A3 /* Main.storyboard */; };
 		ADA12A2E201FCDE200DF85A3 /* FireliteExample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ADA12A2C201FCDE200DF85A3 /* FireliteExample.xcdatamodeld */; };
 		ADA12A30201FCDE200DF85A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADA12A2F201FCDE200DF85A3 /* Assets.xcassets */; };
 		ADA12A33201FCDE200DF85A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADA12A31201FCDE200DF85A3 /* LaunchScreen.storyboard */; };
@@ -33,13 +33,13 @@
 		1F55C3AD0C975DAB641E5636 /* Pods-FireliteExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FireliteExampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FireliteExampleTests/Pods-FireliteExampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		3480F15EA089259F902DF888 /* Pods-FireliteExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FireliteExampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FireliteExampleTests/Pods-FireliteExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		45499D95201FD2E300473D86 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		459A6070201FDB5600FD65EE /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		459A6071201FDB5600FD65EE /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 		50751F668CF92A97F34F72ED /* Pods-FireliteExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FireliteExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-FireliteExample/Pods-FireliteExample.release.xcconfig"; sourceTree = "<group>"; };
 		55755502638746F5868F0C89 /* Pods_FireliteExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FireliteExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAA9D8D6C6147FD0C61EEF6D /* Pods_FireliteExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FireliteExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADA12A22201FCDE200DF85A3 /* FireliteExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FireliteExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADA12A25201FCDE200DF85A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ADA12A27201FCDE200DF85A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		ADA12A2A201FCDE200DF85A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ADA12A2D201FCDE200DF85A3 /* FireliteExample.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FireliteExample.xcdatamodel; sourceTree = "<group>"; };
 		ADA12A2F201FCDE200DF85A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ADA12A32201FCDE200DF85A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -103,8 +103,8 @@
 			isa = PBXGroup;
 			children = (
 				ADA12A25201FCDE200DF85A3 /* AppDelegate.swift */,
-				ADA12A27201FCDE200DF85A3 /* ViewController.swift */,
-				ADA12A29201FCDE200DF85A3 /* Main.storyboard */,
+				459A6070201FDB5600FD65EE /* MainViewController.swift */,
+				459A6071201FDB5600FD65EE /* MainViewController.xib */,
 				ADA12A2F201FCDE200DF85A3 /* Assets.xcassets */,
 				ADA12A31201FCDE200DF85A3 /* LaunchScreen.storyboard */,
 				45499D95201FD2E300473D86 /* GoogleService-Info.plist */,
@@ -226,7 +226,7 @@
 				ADA12A33201FCDE200DF85A3 /* LaunchScreen.storyboard in Resources */,
 				45499D96201FD2E300473D86 /* GoogleService-Info.plist in Resources */,
 				ADA12A30201FCDE200DF85A3 /* Assets.xcassets in Resources */,
-				ADA12A2B201FCDE200DF85A3 /* Main.storyboard in Resources */,
+				459A6073201FDB5600FD65EE /* MainViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,7 +348,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADA12A28201FCDE200DF85A3 /* ViewController.swift in Sources */,
+				459A6072201FDB5600FD65EE /* MainViewController.swift in Sources */,
 				ADA12A2E201FCDE200DF85A3 /* FireliteExample.xcdatamodeld in Sources */,
 				ADA12A26201FCDE200DF85A3 /* AppDelegate.swift in Sources */,
 			);
@@ -373,14 +373,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		ADA12A29201FCDE200DF85A3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				ADA12A2A201FCDE200DF85A3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		ADA12A31201FCDE200DF85A3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -505,7 +497,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = BGA6953D2T;
+				DEVELOPMENT_TEAM = 48V7885PG3;
 				INFOPLIST_FILE = FireliteExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = esgi.FireliteExample;
@@ -521,7 +513,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = BGA6953D2T;
+				DEVELOPMENT_TEAM = 48V7885PG3;
 				INFOPLIST_FILE = FireliteExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = esgi.FireliteExample;

@@ -14,11 +14,20 @@ import Firebase
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    var context: NSManagedObjectContext?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         
         FirebaseApp.configure()
+        self.context = loadContext()
+        
+        let window = UIWindow(frame: UIScreen.main.bounds)
+        window.makeKeyAndVisible()
+        let mainVC = MainViewController()
+        mainVC.context = self.context
+        window.rootViewController = mainVC
+        self.window = window
+        
         
         return true
     }
@@ -93,4 +102,31 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
 }
+
+extension AppDelegate {
+    func loadContext() -> NSManagedObjectContext? {
+        
+        guard
+            let documentDirectory = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first,
+            let schemaURL = Bundle.main.url(forResource: "FireliteExample", withExtension: "momd"),
+            let model = NSManagedObjectModel(contentsOf: schemaURL) else { return nil }
+        
+        let storageURL = documentDirectory.appendingPathComponent("FireliteExample.sqlite")
+        print(storageURL)
+        let store = NSPersistentStoreCoordinator(managedObjectModel: model)
+        _ = try? store.addPersistentStore(ofType: NSSQLiteStoreType, configurationName: nil, at: storageURL, options: nil)
+        let context = NSManagedObjectContext(concurrencyType: .privateQueueConcurrencyType)
+        context.persistentStoreCoordinator = store
+        return context
+        
+    }
+}
+
+
+
+
+
+
+
+
 
