@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ADA12A26201FCDE200DF85A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA12A25201FCDE200DF85A3 /* AppDelegate.swift */; };
+		ADA12A28201FCDE200DF85A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA12A27201FCDE200DF85A3 /* ViewController.swift */; };
+		ADA12A2B201FCDE200DF85A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADA12A29201FCDE200DF85A3 /* Main.storyboard */; };
+		ADA12A2E201FCDE200DF85A3 /* FireliteExample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ADA12A2C201FCDE200DF85A3 /* FireliteExample.xcdatamodeld */; };
+		ADA12A30201FCDE200DF85A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADA12A2F201FCDE200DF85A3 /* Assets.xcassets */; };
+		ADA12A33201FCDE200DF85A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADA12A31201FCDE200DF85A3 /* LaunchScreen.storyboard */; };
+		ADA12A3E201FCDE200DF85A3 /* FireliteExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA12A3D201FCDE200DF85A3 /* FireliteExampleTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ADA12A3A201FCDE200DF85A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADA12A1A201FCDE200DF85A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADA12A21201FCDE200DF85A3;
+			remoteInfo = FireliteExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ADA12A22201FCDE200DF85A3 /* FireliteExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FireliteExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADA12A25201FCDE200DF85A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ADA12A27201FCDE200DF85A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ADA12A2A201FCDE200DF85A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ADA12A2D201FCDE200DF85A3 /* FireliteExample.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FireliteExample.xcdatamodel; sourceTree = "<group>"; };
+		ADA12A2F201FCDE200DF85A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ADA12A32201FCDE200DF85A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ADA12A34201FCDE200DF85A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADA12A39201FCDE200DF85A3 /* FireliteExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FireliteExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADA12A3D201FCDE200DF85A3 /* FireliteExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireliteExampleTests.swift; sourceTree = "<group>"; };
+		ADA12A3F201FCDE200DF85A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADA12A1F201FCDE200DF85A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADA12A36201FCDE200DF85A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ADA12A19201FCDE200DF85A3 = {
+			isa = PBXGroup;
+			children = (
+				ADA12A24201FCDE200DF85A3 /* FireliteExample */,
+				ADA12A3C201FCDE200DF85A3 /* FireliteExampleTests */,
+				ADA12A23201FCDE200DF85A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ADA12A23201FCDE200DF85A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADA12A22201FCDE200DF85A3 /* FireliteExample.app */,
+				ADA12A39201FCDE200DF85A3 /* FireliteExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADA12A24201FCDE200DF85A3 /* FireliteExample */ = {
+			isa = PBXGroup;
+			children = (
+				ADA12A25201FCDE200DF85A3 /* AppDelegate.swift */,
+				ADA12A27201FCDE200DF85A3 /* ViewController.swift */,
+				ADA12A29201FCDE200DF85A3 /* Main.storyboard */,
+				ADA12A2F201FCDE200DF85A3 /* Assets.xcassets */,
+				ADA12A31201FCDE200DF85A3 /* LaunchScreen.storyboard */,
+				ADA12A34201FCDE200DF85A3 /* Info.plist */,
+				ADA12A2C201FCDE200DF85A3 /* FireliteExample.xcdatamodeld */,
+			);
+			path = FireliteExample;
+			sourceTree = "<group>";
+		};
+		ADA12A3C201FCDE200DF85A3 /* FireliteExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				ADA12A3D201FCDE200DF85A3 /* FireliteExampleTests.swift */,
+				ADA12A3F201FCDE200DF85A3 /* Info.plist */,
+			);
+			path = FireliteExampleTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADA12A21201FCDE200DF85A3 /* FireliteExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADA12A42201FCDE200DF85A3 /* Build configuration list for PBXNativeTarget "FireliteExample" */;
+			buildPhases = (
+				ADA12A1E201FCDE200DF85A3 /* Sources */,
+				ADA12A1F201FCDE200DF85A3 /* Frameworks */,
+				ADA12A20201FCDE200DF85A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FireliteExample;
+			productName = FireliteExample;
+			productReference = ADA12A22201FCDE200DF85A3 /* FireliteExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ADA12A38201FCDE200DF85A3 /* FireliteExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADA12A45201FCDE200DF85A3 /* Build configuration list for PBXNativeTarget "FireliteExampleTests" */;
+			buildPhases = (
+				ADA12A35201FCDE200DF85A3 /* Sources */,
+				ADA12A36201FCDE200DF85A3 /* Frameworks */,
+				ADA12A37201FCDE200DF85A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADA12A3B201FCDE200DF85A3 /* PBXTargetDependency */,
+			);
+			name = FireliteExampleTests;
+			productName = FireliteExampleTests;
+			productReference = ADA12A39201FCDE200DF85A3 /* FireliteExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADA12A1A201FCDE200DF85A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Alexandre Ménielle";
+				TargetAttributes = {
+					ADA12A21201FCDE200DF85A3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					ADA12A38201FCDE200DF85A3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ADA12A21201FCDE200DF85A3;
+					};
+				};
+			};
+			buildConfigurationList = ADA12A1D201FCDE200DF85A3 /* Build configuration list for PBXProject "FireliteExample" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ADA12A19201FCDE200DF85A3;
+			productRefGroup = ADA12A23201FCDE200DF85A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADA12A21201FCDE200DF85A3 /* FireliteExample */,
+				ADA12A38201FCDE200DF85A3 /* FireliteExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADA12A20201FCDE200DF85A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADA12A33201FCDE200DF85A3 /* LaunchScreen.storyboard in Resources */,
+				ADA12A30201FCDE200DF85A3 /* Assets.xcassets in Resources */,
+				ADA12A2B201FCDE200DF85A3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADA12A37201FCDE200DF85A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADA12A1E201FCDE200DF85A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADA12A28201FCDE200DF85A3 /* ViewController.swift in Sources */,
+				ADA12A2E201FCDE200DF85A3 /* FireliteExample.xcdatamodeld in Sources */,
+				ADA12A26201FCDE200DF85A3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADA12A35201FCDE200DF85A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADA12A3E201FCDE200DF85A3 /* FireliteExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ADA12A3B201FCDE200DF85A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADA12A21201FCDE200DF85A3 /* FireliteExample */;
+			targetProxy = ADA12A3A201FCDE200DF85A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ADA12A29201FCDE200DF85A3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADA12A2A201FCDE200DF85A3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ADA12A31201FCDE200DF85A3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADA12A32201FCDE200DF85A3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ADA12A40201FCDE200DF85A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ADA12A41201FCDE200DF85A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADA12A43201FCDE200DF85A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BGA6953D2T;
+				INFOPLIST_FILE = FireliteExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = esgi.FireliteExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ADA12A44201FCDE200DF85A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BGA6953D2T;
+				INFOPLIST_FILE = FireliteExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = esgi.FireliteExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ADA12A46201FCDE200DF85A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BGA6953D2T;
+				INFOPLIST_FILE = FireliteExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = esgi.FireliteExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FireliteExample.app/FireliteExample";
+			};
+			name = Debug;
+		};
+		ADA12A47201FCDE200DF85A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BGA6953D2T;
+				INFOPLIST_FILE = FireliteExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = esgi.FireliteExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FireliteExample.app/FireliteExample";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADA12A1D201FCDE200DF85A3 /* Build configuration list for PBXProject "FireliteExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADA12A40201FCDE200DF85A3 /* Debug */,
+				ADA12A41201FCDE200DF85A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADA12A42201FCDE200DF85A3 /* Build configuration list for PBXNativeTarget "FireliteExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADA12A43201FCDE200DF85A3 /* Debug */,
+				ADA12A44201FCDE200DF85A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADA12A45201FCDE200DF85A3 /* Build configuration list for PBXNativeTarget "FireliteExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADA12A46201FCDE200DF85A3 /* Debug */,
+				ADA12A47201FCDE200DF85A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		ADA12A2C201FCDE200DF85A3 /* FireliteExample.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ADA12A2D201FCDE200DF85A3 /* FireliteExample.xcdatamodel */,
+			);
+			currentVersion = ADA12A2D201FCDE200DF85A3 /* FireliteExample.xcdatamodel */;
+			path = FireliteExample.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = ADA12A1A201FCDE200DF85A3 /* Project object */;
+}
