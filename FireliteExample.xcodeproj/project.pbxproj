@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		45499D96201FD2E300473D86 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 45499D95201FD2E300473D86 /* GoogleService-Info.plist */; };
+		5BABF1B32BEA116DCEE964BD /* Pods_FireliteExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAA9D8D6C6147FD0C61EEF6D /* Pods_FireliteExampleTests.framework */; };
 		ADA12A26201FCDE200DF85A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA12A25201FCDE200DF85A3 /* AppDelegate.swift */; };
 		ADA12A28201FCDE200DF85A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA12A27201FCDE200DF85A3 /* ViewController.swift */; };
 		ADA12A2B201FCDE200DF85A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADA12A29201FCDE200DF85A3 /* Main.storyboard */; };
@@ -14,6 +16,7 @@
 		ADA12A30201FCDE200DF85A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADA12A2F201FCDE200DF85A3 /* Assets.xcassets */; };
 		ADA12A33201FCDE200DF85A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADA12A31201FCDE200DF85A3 /* LaunchScreen.storyboard */; };
 		ADA12A3E201FCDE200DF85A3 /* FireliteExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA12A3D201FCDE200DF85A3 /* FireliteExampleTests.swift */; };
+		C8FA619A49512C8126F14838 /* Pods_FireliteExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55755502638746F5868F0C89 /* Pods_FireliteExample.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +30,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F55C3AD0C975DAB641E5636 /* Pods-FireliteExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FireliteExampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FireliteExampleTests/Pods-FireliteExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		3480F15EA089259F902DF888 /* Pods-FireliteExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FireliteExampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FireliteExampleTests/Pods-FireliteExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		45499D95201FD2E300473D86 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		50751F668CF92A97F34F72ED /* Pods-FireliteExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FireliteExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-FireliteExample/Pods-FireliteExample.release.xcconfig"; sourceTree = "<group>"; };
+		55755502638746F5868F0C89 /* Pods_FireliteExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FireliteExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAA9D8D6C6147FD0C61EEF6D /* Pods_FireliteExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FireliteExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADA12A22201FCDE200DF85A3 /* FireliteExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FireliteExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADA12A25201FCDE200DF85A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ADA12A27201FCDE200DF85A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -38,6 +47,7 @@
 		ADA12A39201FCDE200DF85A3 /* FireliteExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FireliteExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADA12A3D201FCDE200DF85A3 /* FireliteExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireliteExampleTests.swift; sourceTree = "<group>"; };
 		ADA12A3F201FCDE200DF85A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2E435EB808526E55D9EE006 /* Pods-FireliteExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FireliteExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FireliteExample/Pods-FireliteExample.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8FA619A49512C8126F14838 /* Pods_FireliteExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,18 +63,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BABF1B32BEA116DCEE964BD /* Pods_FireliteExampleTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6FF1BFAD0C77AC3A0C4638DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				55755502638746F5868F0C89 /* Pods_FireliteExample.framework */,
+				AAA9D8D6C6147FD0C61EEF6D /* Pods_FireliteExampleTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		ADA12A19201FCDE200DF85A3 = {
 			isa = PBXGroup;
 			children = (
 				ADA12A24201FCDE200DF85A3 /* FireliteExample */,
 				ADA12A3C201FCDE200DF85A3 /* FireliteExampleTests */,
 				ADA12A23201FCDE200DF85A3 /* Products */,
+				BA00EB3C5EB072428325D801 /* Pods */,
+				6FF1BFAD0C77AC3A0C4638DE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -84,6 +107,7 @@
 				ADA12A29201FCDE200DF85A3 /* Main.storyboard */,
 				ADA12A2F201FCDE200DF85A3 /* Assets.xcassets */,
 				ADA12A31201FCDE200DF85A3 /* LaunchScreen.storyboard */,
+				45499D95201FD2E300473D86 /* GoogleService-Info.plist */,
 				ADA12A34201FCDE200DF85A3 /* Info.plist */,
 				ADA12A2C201FCDE200DF85A3 /* FireliteExample.xcdatamodeld */,
 			);
@@ -99,6 +123,17 @@
 			path = FireliteExampleTests;
 			sourceTree = "<group>";
 		};
+		BA00EB3C5EB072428325D801 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C2E435EB808526E55D9EE006 /* Pods-FireliteExample.debug.xcconfig */,
+				50751F668CF92A97F34F72ED /* Pods-FireliteExample.release.xcconfig */,
+				3480F15EA089259F902DF888 /* Pods-FireliteExampleTests.debug.xcconfig */,
+				1F55C3AD0C975DAB641E5636 /* Pods-FireliteExampleTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +141,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ADA12A42201FCDE200DF85A3 /* Build configuration list for PBXNativeTarget "FireliteExample" */;
 			buildPhases = (
+				C96E8DF8CFFC293E9FAC73E5 /* [CP] Check Pods Manifest.lock */,
 				ADA12A1E201FCDE200DF85A3 /* Sources */,
 				ADA12A1F201FCDE200DF85A3 /* Frameworks */,
 				ADA12A20201FCDE200DF85A3 /* Resources */,
+				1BF079E9DB996D36F0FF741A /* [CP] Embed Pods Frameworks */,
+				801227F383B1F5E21CD82C98 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,9 +161,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ADA12A45201FCDE200DF85A3 /* Build configuration list for PBXNativeTarget "FireliteExampleTests" */;
 			buildPhases = (
+				139EF257AE4D60B7811DD72B /* [CP] Check Pods Manifest.lock */,
 				ADA12A35201FCDE200DF85A3 /* Sources */,
 				ADA12A36201FCDE200DF85A3 /* Frameworks */,
 				ADA12A37201FCDE200DF85A3 /* Resources */,
+				7C1D52F221354EA2891F6CB4 /* [CP] Embed Pods Frameworks */,
+				D899EAED6D4030FC06366F67 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -183,6 +224,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADA12A33201FCDE200DF85A3 /* LaunchScreen.storyboard in Resources */,
+				45499D96201FD2E300473D86 /* GoogleService-Info.plist in Resources */,
 				ADA12A30201FCDE200DF85A3 /* Assets.xcassets in Resources */,
 				ADA12A2B201FCDE200DF85A3 /* Main.storyboard in Resources */,
 			);
@@ -196,6 +238,110 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		139EF257AE4D60B7811DD72B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FireliteExampleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1BF079E9DB996D36F0FF741A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FireliteExample/Pods-FireliteExample-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FireliteExample/Pods-FireliteExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C1D52F221354EA2891F6CB4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FireliteExampleTests/Pods-FireliteExampleTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		801227F383B1F5E21CD82C98 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FireliteExample/Pods-FireliteExample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C96E8DF8CFFC293E9FAC73E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FireliteExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D899EAED6D4030FC06366F67 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FireliteExampleTests/Pods-FireliteExampleTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		ADA12A1E201FCDE200DF85A3 /* Sources */ = {
@@ -355,6 +501,7 @@
 		};
 		ADA12A43201FCDE200DF85A3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2E435EB808526E55D9EE006 /* Pods-FireliteExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -370,6 +517,7 @@
 		};
 		ADA12A44201FCDE200DF85A3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50751F668CF92A97F34F72ED /* Pods-FireliteExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -385,6 +533,7 @@
 		};
 		ADA12A46201FCDE200DF85A3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3480F15EA089259F902DF888 /* Pods-FireliteExampleTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -402,6 +551,7 @@
 		};
 		ADA12A47201FCDE200DF85A3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F55C3AD0C975DAB641E5636 /* Pods-FireliteExampleTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
