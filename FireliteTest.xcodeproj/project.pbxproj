@@ -1,0 +1,658 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD1B170420138CE300A721D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1B170320138CE300A721D5 /* AppDelegate.swift */; };
+		AD1B170C20138CE300A721D5 /* FireliteTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AD1B170A20138CE300A721D5 /* FireliteTest.xcdatamodeld */; };
+		AD1B170E20138CE300A721D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD1B170D20138CE300A721D5 /* Assets.xcassets */; };
+		AD1B171120138CE300A721D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD1B170F20138CE300A721D5 /* LaunchScreen.storyboard */; };
+		AD1B171C20138CE300A721D5 /* FireliteTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1B171B20138CE300A721D5 /* FireliteTestTests.swift */; };
+		AD1B172720138D4B00A721D5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AD1B172620138D4B00A721D5 /* GoogleService-Info.plist */; };
+		AD33746420154A070094C14E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD33746220154A070094C14E /* MainViewController.swift */; };
+		AD33746520154A070094C14E /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD33746320154A070094C14E /* MainViewController.xib */; };
+		AD407749201EF2650077C72D /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD407747201EF2650077C72D /* UserCell.swift */; };
+		AD40774A201EF2650077C72D /* UserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD407748201EF2650077C72D /* UserCell.xib */; };
+		AD808AC2202603B700CD0EE3 /* ObjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD808AC0202603B700CD0EE3 /* ObjectViewController.swift */; };
+		AD808AC3202603B700CD0EE3 /* ObjectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD808AC1202603B700CD0EE3 /* ObjectViewController.xib */; };
+		AD808AC6202619DF00CD0EE3 /* NewObjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD808AC4202619DF00CD0EE3 /* NewObjectViewController.swift */; };
+		AD808AC7202619DF00CD0EE3 /* NewObjectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD808AC5202619DF00CD0EE3 /* NewObjectViewController.xib */; };
+		AD808ACA20261A9F00CD0EE3 /* FormCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD808AC820261A9F00CD0EE3 /* FormCell.swift */; };
+		AD808ACB20261A9F00CD0EE3 /* FormCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD808AC920261A9F00CD0EE3 /* FormCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD1B171820138CE300A721D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD1B16F820138CE300A721D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD1B16FF20138CE300A721D5;
+			remoteInfo = FireliteTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AD1B172C20138DFB00A721D5 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD45F0DA2013B41F00F77993 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		37FAB0BB041D057954553F26 /* Pods-FireliteTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FireliteTestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FireliteTestTests/Pods-FireliteTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		7C7935598C57080514105FB9 /* Pods-FireliteTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FireliteTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-FireliteTest/Pods-FireliteTest.release.xcconfig"; sourceTree = "<group>"; };
+		AD1B170020138CE300A721D5 /* FireliteTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FireliteTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD1B170320138CE300A721D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AD1B170B20138CE300A721D5 /* FireliteTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FireliteTest.xcdatamodel; sourceTree = "<group>"; };
+		AD1B170D20138CE300A721D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD1B171020138CE300A721D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AD1B171220138CE300A721D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD1B171720138CE300A721D5 /* FireliteTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FireliteTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD1B171B20138CE300A721D5 /* FireliteTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireliteTestTests.swift; sourceTree = "<group>"; };
+		AD1B171D20138CE300A721D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD1B172620138D4B00A721D5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AD33746220154A070094C14E /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		AD33746320154A070094C14E /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		AD407747201EF2650077C72D /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		AD407748201EF2650077C72D /* UserCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserCell.xib; sourceTree = "<group>"; };
+		AD808AC0202603B700CD0EE3 /* ObjectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectViewController.swift; sourceTree = "<group>"; };
+		AD808AC1202603B700CD0EE3 /* ObjectViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ObjectViewController.xib; sourceTree = "<group>"; };
+		AD808AC4202619DF00CD0EE3 /* NewObjectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewObjectViewController.swift; sourceTree = "<group>"; };
+		AD808AC5202619DF00CD0EE3 /* NewObjectViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewObjectViewController.xib; sourceTree = "<group>"; };
+		AD808AC820261A9F00CD0EE3 /* FormCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormCell.swift; sourceTree = "<group>"; };
+		AD808AC920261A9F00CD0EE3 /* FormCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FormCell.xib; sourceTree = "<group>"; };
+		B155F163EE4E740A91917CC6 /* Pods-FireliteTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FireliteTestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FireliteTestTests/Pods-FireliteTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EFE0043191F52ED1D73CEE8E /* Pods-FireliteTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FireliteTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FireliteTest/Pods-FireliteTest.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD1B16FD20138CE300A721D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD1B171420138CE300A721D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		780014C5E5C2FC5701A1B12A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EFE0043191F52ED1D73CEE8E /* Pods-FireliteTest.debug.xcconfig */,
+				7C7935598C57080514105FB9 /* Pods-FireliteTest.release.xcconfig */,
+				B155F163EE4E740A91917CC6 /* Pods-FireliteTestTests.debug.xcconfig */,
+				37FAB0BB041D057954553F26 /* Pods-FireliteTestTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AD1B16F720138CE300A721D5 = {
+			isa = PBXGroup;
+			children = (
+				AD1B170220138CE300A721D5 /* FireliteTest */,
+				AD1B171A20138CE300A721D5 /* FireliteTestTests */,
+				AD1B170120138CE300A721D5 /* Products */,
+				780014C5E5C2FC5701A1B12A /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		AD1B170120138CE300A721D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD1B170020138CE300A721D5 /* FireliteTest.app */,
+				AD1B171720138CE300A721D5 /* FireliteTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD1B170220138CE300A721D5 /* FireliteTest */ = {
+			isa = PBXGroup;
+			children = (
+				AD1B170320138CE300A721D5 /* AppDelegate.swift */,
+				AD33746220154A070094C14E /* MainViewController.swift */,
+				AD33746320154A070094C14E /* MainViewController.xib */,
+				AD808AC0202603B700CD0EE3 /* ObjectViewController.swift */,
+				AD808AC1202603B700CD0EE3 /* ObjectViewController.xib */,
+				AD808AC4202619DF00CD0EE3 /* NewObjectViewController.swift */,
+				AD808AC5202619DF00CD0EE3 /* NewObjectViewController.xib */,
+				AD1B170D20138CE300A721D5 /* Assets.xcassets */,
+				AD1B170F20138CE300A721D5 /* LaunchScreen.storyboard */,
+				AD1B171220138CE300A721D5 /* Info.plist */,
+				AD1B172620138D4B00A721D5 /* GoogleService-Info.plist */,
+				AD1B170A20138CE300A721D5 /* FireliteTest.xcdatamodeld */,
+				AD407747201EF2650077C72D /* UserCell.swift */,
+				AD407748201EF2650077C72D /* UserCell.xib */,
+				AD808AC820261A9F00CD0EE3 /* FormCell.swift */,
+				AD808AC920261A9F00CD0EE3 /* FormCell.xib */,
+			);
+			path = FireliteTest;
+			sourceTree = "<group>";
+		};
+		AD1B171A20138CE300A721D5 /* FireliteTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				AD1B171B20138CE300A721D5 /* FireliteTestTests.swift */,
+				AD1B171D20138CE300A721D5 /* Info.plist */,
+			);
+			path = FireliteTestTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD1B16FF20138CE300A721D5 /* FireliteTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD1B172020138CE300A721D5 /* Build configuration list for PBXNativeTarget "FireliteTest" */;
+			buildPhases = (
+				116101E1CCAF42A222CC4016 /* [CP] Check Pods Manifest.lock */,
+				AD1B16FC20138CE300A721D5 /* Sources */,
+				AD1B16FD20138CE300A721D5 /* Frameworks */,
+				AD1B16FE20138CE300A721D5 /* Resources */,
+				6EAF4A537B3692D32D7592C8 /* [CP] Embed Pods Frameworks */,
+				C520B08949364FBAA95CDE46 /* [CP] Copy Pods Resources */,
+				AD1B172C20138DFB00A721D5 /* Embed Frameworks */,
+				AD45F0DA2013B41F00F77993 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FireliteTest;
+			productName = FireliteTest;
+			productReference = AD1B170020138CE300A721D5 /* FireliteTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD1B171620138CE300A721D5 /* FireliteTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD1B172320138CE300A721D5 /* Build configuration list for PBXNativeTarget "FireliteTestTests" */;
+			buildPhases = (
+				8B2A14FACF9DC7900EAD9353 /* [CP] Check Pods Manifest.lock */,
+				AD1B171320138CE300A721D5 /* Sources */,
+				AD1B171420138CE300A721D5 /* Frameworks */,
+				AD1B171520138CE300A721D5 /* Resources */,
+				B7146EE69DF28E316C1DB7DA /* [CP] Embed Pods Frameworks */,
+				C76157C070F1768DA28DE7A9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD1B171920138CE300A721D5 /* PBXTargetDependency */,
+			);
+			name = FireliteTestTests;
+			productName = FireliteTestTests;
+			productReference = AD1B171720138CE300A721D5 /* FireliteTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD1B16F820138CE300A721D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Alexandre Ménielle";
+				TargetAttributes = {
+					AD1B16FF20138CE300A721D5 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					AD1B171620138CE300A721D5 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AD1B16FF20138CE300A721D5;
+					};
+				};
+			};
+			buildConfigurationList = AD1B16FB20138CE300A721D5 /* Build configuration list for PBXProject "FireliteTest" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD1B16F720138CE300A721D5;
+			productRefGroup = AD1B170120138CE300A721D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD1B16FF20138CE300A721D5 /* FireliteTest */,
+				AD1B171620138CE300A721D5 /* FireliteTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD1B16FE20138CE300A721D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD1B171120138CE300A721D5 /* LaunchScreen.storyboard in Resources */,
+				AD808ACB20261A9F00CD0EE3 /* FormCell.xib in Resources */,
+				AD1B172720138D4B00A721D5 /* GoogleService-Info.plist in Resources */,
+				AD808AC7202619DF00CD0EE3 /* NewObjectViewController.xib in Resources */,
+				AD1B170E20138CE300A721D5 /* Assets.xcassets in Resources */,
+				AD33746520154A070094C14E /* MainViewController.xib in Resources */,
+				AD40774A201EF2650077C72D /* UserCell.xib in Resources */,
+				AD808AC3202603B700CD0EE3 /* ObjectViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD1B171520138CE300A721D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		116101E1CCAF42A222CC4016 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FireliteTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6EAF4A537B3692D32D7592C8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FireliteTest/Pods-FireliteTest-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FireliteTest/Pods-FireliteTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B2A14FACF9DC7900EAD9353 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FireliteTestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7146EE69DF28E316C1DB7DA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FireliteTestTests/Pods-FireliteTestTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C520B08949364FBAA95CDE46 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FireliteTest/Pods-FireliteTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C76157C070F1768DA28DE7A9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FireliteTestTests/Pods-FireliteTestTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD1B16FC20138CE300A721D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD808AC6202619DF00CD0EE3 /* NewObjectViewController.swift in Sources */,
+				AD407749201EF2650077C72D /* UserCell.swift in Sources */,
+				AD808ACA20261A9F00CD0EE3 /* FormCell.swift in Sources */,
+				AD808AC2202603B700CD0EE3 /* ObjectViewController.swift in Sources */,
+				AD1B170420138CE300A721D5 /* AppDelegate.swift in Sources */,
+				AD1B170C20138CE300A721D5 /* FireliteTest.xcdatamodeld in Sources */,
+				AD33746420154A070094C14E /* MainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD1B171320138CE300A721D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD1B171C20138CE300A721D5 /* FireliteTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD1B171920138CE300A721D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD1B16FF20138CE300A721D5 /* FireliteTest */;
+			targetProxy = AD1B171820138CE300A721D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AD1B170F20138CE300A721D5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD1B171020138CE300A721D5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD1B171E20138CE300A721D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD1B171F20138CE300A721D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD1B172120138CE300A721D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFE0043191F52ED1D73CEE8E /* Pods-FireliteTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BGA6953D2T;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = FireliteTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = esgi.FireliteTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD1B172220138CE300A721D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C7935598C57080514105FB9 /* Pods-FireliteTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BGA6953D2T;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = FireliteTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = esgi.FireliteTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AD1B172420138CE300A721D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B155F163EE4E740A91917CC6 /* Pods-FireliteTestTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BGA6953D2T;
+				INFOPLIST_FILE = FireliteTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = esgi.FireliteTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FireliteTest.app/FireliteTest";
+			};
+			name = Debug;
+		};
+		AD1B172520138CE300A721D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37FAB0BB041D057954553F26 /* Pods-FireliteTestTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BGA6953D2T;
+				INFOPLIST_FILE = FireliteTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = esgi.FireliteTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FireliteTest.app/FireliteTest";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD1B16FB20138CE300A721D5 /* Build configuration list for PBXProject "FireliteTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD1B171E20138CE300A721D5 /* Debug */,
+				AD1B171F20138CE300A721D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD1B172020138CE300A721D5 /* Build configuration list for PBXNativeTarget "FireliteTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD1B172120138CE300A721D5 /* Debug */,
+				AD1B172220138CE300A721D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD1B172320138CE300A721D5 /* Build configuration list for PBXNativeTarget "FireliteTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD1B172420138CE300A721D5 /* Debug */,
+				AD1B172520138CE300A721D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AD1B170A20138CE300A721D5 /* FireliteTest.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AD1B170B20138CE300A721D5 /* FireliteTest.xcdatamodel */,
+			);
+			currentVersion = AD1B170B20138CE300A721D5 /* FireliteTest.xcdatamodel */;
+			path = FireliteTest.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AD1B16F820138CE300A721D5 /* Project object */;
+}
