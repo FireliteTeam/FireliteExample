@@ -7,6 +7,7 @@ target 'FireliteTest' do
 
   # Pods for FireliteTest
   pod 'Firebase/Database'
+  pod 'Firelite'
 
   target 'FireliteTestTests' do
     inherit! :search_paths
